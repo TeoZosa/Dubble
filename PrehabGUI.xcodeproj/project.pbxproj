@@ -1,0 +1,1040 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561D81EF577CD1858E51A208 /* Pods_PrehabGUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4197492B72690CA55C189ED7 /* Pods_PrehabGUITests.framework */; };
+		7B0EF860CA09DEF7F354510D /* Pods_PrehabGUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32910496E5ED3D5E354B3D /* Pods_PrehabGUI.framework */; };
+		B810D7A31F61FDDE001C8873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B810D7A01F61FDD9001C8873 /* GoogleService-Info.plist */; };
+		B810D7A41F61FDDF001C8873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B810D7A01F61FDD9001C8873 /* GoogleService-Info.plist */; };
+		B810D7A51F61FDDF001C8873 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B810D7A01F61FDD9001C8873 /* GoogleService-Info.plist */; };
+		B810D7A71F622085001C8873 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B810D7A61F622085001C8873 /* UserViewController.swift */; };
+		B85C4EC11F688D7E006EB37E /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C4EC01F688D7E006EB37E /* InstructionsViewController.swift */; };
+		B85C4EC31F689DCC006EB37E /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85C4EC21F689DCC006EB37E /* ActivityViewController.swift */; };
+		B86FCF7D1F5F41F8000B5290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FCF7C1F5F41F8000B5290 /* AppDelegate.swift */; };
+		B86FCF7F1F5F41F8000B5290 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FCF7E1F5F41F8000B5290 /* ViewController.swift */; };
+		B86FCF821F5F41F8000B5290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FCF801F5F41F8000B5290 /* Main.storyboard */; };
+		B86FCF851F5F41F8000B5290 /* PrehabGUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B86FCF831F5F41F8000B5290 /* PrehabGUI.xcdatamodeld */; };
+		B86FCF871F5F41F8000B5290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86FCF861F5F41F8000B5290 /* Assets.xcassets */; };
+		B86FCF8A1F5F41F8000B5290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86FCF881F5F41F8000B5290 /* LaunchScreen.storyboard */; };
+		B86FCF951F5F41F9000B5290 /* PrehabGUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FCF941F5F41F9000B5290 /* PrehabGUITests.swift */; };
+		B86FCFA01F5F41F9000B5290 /* PrehabGUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86FCF9F1F5F41F9000B5290 /* PrehabGUIUITests.swift */; };
+		B89761ED1F745E6C00E11895 /* HipsNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B89761E91F745E6B00E11895 /* HipsNot StandingActivity.mp4 */; };
+		B89761EE1F745E6C00E11895 /* HipsNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B89761EA1F745E6B00E11895 /* HipsNot StandingInstructional.mp4 */; };
+		B89761EF1F745E6C00E11895 /* HipsStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B89761EB1F745E6B00E11895 /* HipsStandingInstructional.mp4 */; };
+		B89761F01F745E6C00E11895 /* HipsStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B89761EC1F745E6C00E11895 /* HipsStandingActivity.mp4 */; };
+		B8A404751F723A5E0054CD42 /* BreakFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A404741F723A5E0054CD42 /* BreakFaceViewController.swift */; };
+		B8A404771F7243BD0054CD42 /* BreakFaceViewControllerFirst.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A404761F7243BD0054CD42 /* BreakFaceViewControllerFirst.swift */; };
+		B8A404791F72E7510054CD42 /* HeightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A404781F72E7510054CD42 /* HeightViewController.swift */; };
+		B8ACFBED1F6D9A3A00936FFB /* BackNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAB1F6B2709005840DB /* BackNot StandingActivity.mp4 */; };
+		B8ACFBEE1F6D9A3A00936FFB /* BackNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA21F6B2706005840DB /* BackNot StandingInstructional.mp4 */; };
+		B8ACFBEF1F6D9A3A00936FFB /* BackStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA31F6B2707005840DB /* BackStandingActivity.mp4 */; };
+		B8ACFBF01F6D9A3A00936FFB /* BackStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAA1F6B2708005840DB /* BackStandingInstructional.mp4 */; };
+		B8ACFBF51F6D9A3A00936FFB /* HamstringsNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE991F6B2704005840DB /* HamstringsNot StandingActivity.mp4 */; };
+		B8ACFBF61F6D9A3A00936FFB /* HamstringsNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9E1F6B2705005840DB /* HamstringsNot StandingInstructional.mp4 */; };
+		B8ACFBF71F6D9A3A00936FFB /* HamstringsStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA01F6B2706005840DB /* HamstringsStandingActivity.mp4 */; };
+		B8ACFBF81F6D9A3A00936FFB /* HamstringsStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE941F6B2703005840DB /* HamstringsStandingInstructional.mp4 */; };
+		B8ACFBF91F6D9A3A00936FFB /* NeckNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA11F6B2706005840DB /* NeckNot StandingActivity.mp4 */; };
+		B8ACFBFA1F6D9A3A00936FFB /* NeckNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9C1F6B2705005840DB /* NeckNot StandingInstructional.mp4 */; };
+		B8ACFBFB1F6D9A3A00936FFB /* NeckStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9F1F6B2706005840DB /* NeckStandingActivity.mp4 */; };
+		B8ACFBFC1F6D9A3A00936FFB /* NeckStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE971F6B2704005840DB /* NeckStandingInstructional.mp4 */; };
+		B8ACFBFD1F6D9A3A00936FFB /* PecsNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB21F6B270B005840DB /* PecsNot StandingActivity.mp4 */; };
+		B8ACFBFE1F6D9A3A00936FFB /* PecsNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA41F6B2707005840DB /* PecsNot StandingInstructional.mp4 */; };
+		B8ACFBFF1F6D9A3A00936FFB /* PecsStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE981F6B2704005840DB /* PecsStandingActivity.mp4 */; };
+		B8ACFC001F6D9A3A00936FFB /* PecsStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB01F6B270A005840DB /* PecsStandingInstructional.mp4 */; };
+		B8ACFC011F6D9A3A00936FFB /* ToesNot Standing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B862B74C1F69D3C900AF512C /* ToesNot Standing.mp4 */; };
+		B8ACFC021F6D9A3A00936FFB /* ToesNot Standing.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB31F6B270B005840DB /* ToesNot Standing.mp4 */; };
+		B8ACFC031F6D9A3A00936FFB /* ToesNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9D1F6B2705005840DB /* ToesNot StandingActivity.mp4 */; };
+		B8ACFC041F6D9A3A00936FFB /* ToesNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAC1F6B2709005840DB /* ToesNot StandingInstructional.mp4 */; };
+		B8ACFC051F6D9A3A00936FFB /* ToesSitting.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B85C4ED61F68BB22006EB37E /* ToesSitting.mp4 */; };
+		B8ACFC061F6D9A3A00936FFB /* ToesSitting.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA81F6B2708005840DB /* ToesSitting.mp4 */; };
+		B8ACFC071F6D9A3A00936FFB /* ToesStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB51F6B270C005840DB /* ToesStandingActivity.mp4 */; };
+		B8ACFC081F6D9A3A00936FFB /* ToesStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAE1F6B270A005840DB /* ToesStandingInstructional.mp4 */; };
+		B8ACFC091F6D9A3A00936FFB /* TrapsNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAD1F6B2709005840DB /* TrapsNot StandingActivity.mp4 */; };
+		B8ACFC0A1F6D9A3A00936FFB /* TrapsNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB11F6B270A005840DB /* TrapsNot StandingInstructional.mp4 */; };
+		B8ACFC0B1F6D9A3A00936FFB /* TrapsStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9A1F6B2704005840DB /* TrapsStandingActivity.mp4 */; };
+		B8ACFC0C1F6D9A3A00936FFB /* TrapsStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEAF1F6B270A005840DB /* TrapsStandingInstructional.mp4 */; };
+		B8ACFC0D1F6D9A3A00936FFB /* WristsNot StandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEB41F6B270B005840DB /* WristsNot StandingActivity.mp4 */; };
+		B8ACFC0E1F6D9A3A00936FFB /* WristsNot StandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA51F6B2707005840DB /* WristsNot StandingInstructional.mp4 */; };
+		B8ACFC0F1F6D9A3A00936FFB /* WristsStandingActivity.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DEA91F6B2708005840DB /* WristsStandingActivity.mp4 */; };
+		B8ACFC101F6D9A3A00936FFB /* WristsStandingInstructional.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B8E2DE9B1F6B2705005840DB /* WristsStandingInstructional.mp4 */; };
+		B8ACFC121F6D9AC800936FFB /* ExitWithDriveOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACFC111F6D9AC800936FFB /* ExitWithDriveOptionsViewController.swift */; };
+		B8DFCA061F7466F70011381D /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFCA051F7466F70011381D /* AboutMeViewController.swift */; };
+		B8DFCA081F746FF90011381D /* WakeUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFCA071F746FF90011381D /* WakeUpViewController.swift */; };
+		B8DFCA0A1F7482AC0011381D /* AboutMe2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DFCA091F7482AC0011381D /* AboutMe2ViewController.swift */; };
+		B8E098A51F63975600C1E2BB /* MainActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E098A41F63975600C1E2BB /* MainActivityViewController.swift */; };
+		B8E098A71F63986300C1E2BB /* ExerciseVersionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E098A61F63986300C1E2BB /* ExerciseVersionViewController.swift */; };
+		B8E098A91F639A7800C1E2BB /* ExpertAdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E098A81F639A7800C1E2BB /* ExpertAdviceViewController.swift */; };
+		B8E098AB1F65B5C600C1E2BB /* ShuffleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E098AA1F65B5C600C1E2BB /* ShuffleExtensions.swift */; };
+		B8E2DED71F6B2BE5005840DB /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2DED61F6B2BE5005840DB /* ExitViewController.swift */; };
+		B8E2DED91F6B2BF1005840DB /* ConfirmDoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E2DED81F6B2BF1005840DB /* ConfirmDoneViewController.swift */; };
+		B8F8A7D31F71B26F00E0F380 /* IntroFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F8A7D21F71B26F00E0F380 /* IntroFaceViewController.swift */; };
+		B8FC9EC51F6C684A003DC9A5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FC9EC41F6C684A003DC9A5 /* ExternalAccessory.framework */; };
+		B8FC9EC71F6C6852003DC9A5 /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8FC9EC61F6C6852003DC9A5 /* DoubleControlSDK.framework */; };
+		B8FC9ECC1F6C6B62003DC9A5 /* DoubleStuff.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FC9ECB1F6C6B62003DC9A5 /* DoubleStuff.m */; };
+		C5131A441AFF811C921379A0 /* Pods_PrehabGUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0393A1525B4A7617ED27D293 /* Pods_PrehabGUIUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B86FCF911F5F41F9000B5290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86FCF711F5F41F8000B5290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FCF781F5F41F8000B5290;
+			remoteInfo = PrehabGUI;
+		};
+		B86FCF9C1F5F41F9000B5290 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B86FCF711F5F41F8000B5290 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B86FCF781F5F41F8000B5290;
+			remoteInfo = PrehabGUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0393A1525B4A7617ED27D293 /* Pods_PrehabGUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrehabGUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		13221B4C9D02648A6A6A8CD8 /* Pods-PrehabGUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUIUITests/Pods-PrehabGUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		156BCDB966AC7A222E5D65F6 /* Pods-PrehabGUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUIUITests/Pods-PrehabGUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4197492B72690CA55C189ED7 /* Pods_PrehabGUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrehabGUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CDD6F73368FC55A57105C34 /* Pods-PrehabGUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUI/Pods-PrehabGUI.release.xcconfig"; sourceTree = "<group>"; };
+		AD32910496E5ED3D5E354B3D /* Pods_PrehabGUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrehabGUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B810D7A01F61FDD9001C8873 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B810D7A61F622085001C8873 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		B85C4EC01F688D7E006EB37E /* InstructionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		B85C4EC21F689DCC006EB37E /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		B85C4ED61F68BB22006EB37E /* ToesSitting.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ToesSitting.mp4; path = Assets/Videos/ToesSitting.mp4; sourceTree = "<group>"; };
+		B862B74C1F69D3C900AF512C /* ToesNot Standing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ToesNot Standing.mp4"; path = "Assets/Videos/ToesNot Standing.mp4"; sourceTree = "<group>"; };
+		B86FCF791F5F41F8000B5290 /* PrehabGUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrehabGUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86FCF7C1F5F41F8000B5290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B86FCF7E1F5F41F8000B5290 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B86FCF811F5F41F8000B5290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B86FCF841F5F41F8000B5290 /* PrehabGUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrehabGUI.xcdatamodel; sourceTree = "<group>"; };
+		B86FCF861F5F41F8000B5290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B86FCF891F5F41F8000B5290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B86FCF8B1F5F41F8000B5290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86FCF901F5F41F9000B5290 /* PrehabGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrehabGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86FCF941F5F41F9000B5290 /* PrehabGUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrehabGUITests.swift; sourceTree = "<group>"; };
+		B86FCF961F5F41F9000B5290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B86FCF9B1F5F41F9000B5290 /* PrehabGUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrehabGUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B86FCF9F1F5F41F9000B5290 /* PrehabGUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrehabGUIUITests.swift; sourceTree = "<group>"; };
+		B86FCFA11F5F41F9000B5290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B89761E91F745E6B00E11895 /* HipsNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HipsNot StandingActivity.mp4"; path = "Assets/Videos/HipsNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B89761EA1F745E6B00E11895 /* HipsNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HipsNot StandingInstructional.mp4"; path = "Assets/Videos/HipsNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B89761EB1F745E6B00E11895 /* HipsStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HipsStandingInstructional.mp4; path = Assets/Videos/HipsStandingInstructional.mp4; sourceTree = "<group>"; };
+		B89761EC1F745E6C00E11895 /* HipsStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HipsStandingActivity.mp4; path = Assets/Videos/HipsStandingActivity.mp4; sourceTree = "<group>"; };
+		B8A404741F723A5E0054CD42 /* BreakFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakFaceViewController.swift; sourceTree = "<group>"; };
+		B8A404761F7243BD0054CD42 /* BreakFaceViewControllerFirst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakFaceViewControllerFirst.swift; sourceTree = "<group>"; };
+		B8A404781F72E7510054CD42 /* HeightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightViewController.swift; sourceTree = "<group>"; };
+		B8ACFC111F6D9AC800936FFB /* ExitWithDriveOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitWithDriveOptionsViewController.swift; sourceTree = "<group>"; };
+		B8DFCA051F7466F70011381D /* AboutMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		B8DFCA071F746FF90011381D /* WakeUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpViewController.swift; sourceTree = "<group>"; };
+		B8DFCA091F7482AC0011381D /* AboutMe2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe2ViewController.swift; sourceTree = "<group>"; };
+		B8E098A41F63975600C1E2BB /* MainActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityViewController.swift; sourceTree = "<group>"; };
+		B8E098A61F63986300C1E2BB /* ExerciseVersionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseVersionViewController.swift; sourceTree = "<group>"; };
+		B8E098A81F639A7800C1E2BB /* ExpertAdviceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpertAdviceViewController.swift; sourceTree = "<group>"; };
+		B8E098AA1F65B5C600C1E2BB /* ShuffleExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleExtensions.swift; sourceTree = "<group>"; };
+		B8E2DE941F6B2703005840DB /* HamstringsStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HamstringsStandingInstructional.mp4; path = Assets/Videos/HamstringsStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DE971F6B2704005840DB /* NeckStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = NeckStandingInstructional.mp4; path = Assets/Videos/NeckStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DE981F6B2704005840DB /* PecsStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = PecsStandingActivity.mp4; path = Assets/Videos/PecsStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DE991F6B2704005840DB /* HamstringsNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HamstringsNot StandingActivity.mp4"; path = "Assets/Videos/HamstringsNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DE9A1F6B2704005840DB /* TrapsStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrapsStandingActivity.mp4; path = Assets/Videos/TrapsStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DE9B1F6B2705005840DB /* WristsStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = WristsStandingInstructional.mp4; path = Assets/Videos/WristsStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DE9C1F6B2705005840DB /* NeckNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeckNot StandingInstructional.mp4"; path = "Assets/Videos/NeckNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DE9D1F6B2705005840DB /* ToesNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ToesNot StandingActivity.mp4"; path = "Assets/Videos/ToesNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DE9E1F6B2705005840DB /* HamstringsNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "HamstringsNot StandingInstructional.mp4"; path = "Assets/Videos/HamstringsNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DE9F1F6B2706005840DB /* NeckStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = NeckStandingActivity.mp4; path = Assets/Videos/NeckStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DEA01F6B2706005840DB /* HamstringsStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = HamstringsStandingActivity.mp4; path = Assets/Videos/HamstringsStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DEA11F6B2706005840DB /* NeckNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NeckNot StandingActivity.mp4"; path = "Assets/Videos/NeckNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DEA21F6B2706005840DB /* BackNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BackNot StandingInstructional.mp4"; path = "Assets/Videos/BackNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DEA31F6B2707005840DB /* BackStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = BackStandingActivity.mp4; path = Assets/Videos/BackStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DEA41F6B2707005840DB /* PecsNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PecsNot StandingInstructional.mp4"; path = "Assets/Videos/PecsNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DEA51F6B2707005840DB /* WristsNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WristsNot StandingInstructional.mp4"; path = "Assets/Videos/WristsNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DEA81F6B2708005840DB /* ToesSitting.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ToesSitting.mp4; path = Assets/Videos/ToesSitting.mp4; sourceTree = "<group>"; };
+		B8E2DEA91F6B2708005840DB /* WristsStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = WristsStandingActivity.mp4; path = Assets/Videos/WristsStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DEAA1F6B2708005840DB /* BackStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = BackStandingInstructional.mp4; path = Assets/Videos/BackStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DEAB1F6B2709005840DB /* BackNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BackNot StandingActivity.mp4"; path = "Assets/Videos/BackNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DEAC1F6B2709005840DB /* ToesNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ToesNot StandingInstructional.mp4"; path = "Assets/Videos/ToesNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DEAD1F6B2709005840DB /* TrapsNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrapsNot StandingActivity.mp4"; path = "Assets/Videos/TrapsNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DEAE1F6B270A005840DB /* ToesStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ToesStandingInstructional.mp4; path = Assets/Videos/ToesStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DEAF1F6B270A005840DB /* TrapsStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = TrapsStandingInstructional.mp4; path = Assets/Videos/TrapsStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DEB01F6B270A005840DB /* PecsStandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = PecsStandingInstructional.mp4; path = Assets/Videos/PecsStandingInstructional.mp4; sourceTree = "<group>"; };
+		B8E2DEB11F6B270A005840DB /* TrapsNot StandingInstructional.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TrapsNot StandingInstructional.mp4"; path = "Assets/Videos/TrapsNot StandingInstructional.mp4"; sourceTree = "<group>"; };
+		B8E2DEB21F6B270B005840DB /* PecsNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "PecsNot StandingActivity.mp4"; path = "Assets/Videos/PecsNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DEB31F6B270B005840DB /* ToesNot Standing.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ToesNot Standing.mp4"; path = "Assets/Videos/ToesNot Standing.mp4"; sourceTree = "<group>"; };
+		B8E2DEB41F6B270B005840DB /* WristsNot StandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "WristsNot StandingActivity.mp4"; path = "Assets/Videos/WristsNot StandingActivity.mp4"; sourceTree = "<group>"; };
+		B8E2DEB51F6B270C005840DB /* ToesStandingActivity.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = ToesStandingActivity.mp4; path = Assets/Videos/ToesStandingActivity.mp4; sourceTree = "<group>"; };
+		B8E2DED61F6B2BE5005840DB /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExitViewController.swift; sourceTree = "<group>"; };
+		B8E2DED81F6B2BF1005840DB /* ConfirmDoneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmDoneViewController.swift; sourceTree = "<group>"; };
+		B8F8A7D21F71B26F00E0F380 /* IntroFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFaceViewController.swift; sourceTree = "<group>"; };
+		B8F8A7D41F71B47A00E0F380 /* IntroFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFaceViewController.swift; sourceTree = SOURCE_ROOT; };
+		B8FC9EC41F6C684A003DC9A5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		B8FC9EC61F6C6852003DC9A5 /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubleControlSDK.framework; sourceTree = "<group>"; };
+		B8FC9ECA1F6C6B61003DC9A5 /* PrehabGUI-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PrehabGUI-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8FC9ECB1F6C6B62003DC9A5 /* DoubleStuff.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleStuff.m; sourceTree = "<group>"; };
+		C2A424537F2000542F6EA402 /* Pods-PrehabGUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUITests/Pods-PrehabGUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCB1D26D09961D39253CEB67 /* Pods-PrehabGUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUI/Pods-PrehabGUI.debug.xcconfig"; sourceTree = "<group>"; };
+		D0C82850C2A0480E0051BB29 /* Pods-PrehabGUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrehabGUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrehabGUITests/Pods-PrehabGUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B86FCF761F5F41F8000B5290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8FC9EC71F6C6852003DC9A5 /* DoubleControlSDK.framework in Frameworks */,
+				B8FC9EC51F6C684A003DC9A5 /* ExternalAccessory.framework in Frameworks */,
+				7B0EF860CA09DEF7F354510D /* Pods_PrehabGUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF8D1F5F41F9000B5290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561D81EF577CD1858E51A208 /* Pods_PrehabGUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF981F5F41F9000B5290 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5131A441AFF811C921379A0 /* Pods_PrehabGUIUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C423A49888A5DC4D5C01BBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCB1D26D09961D39253CEB67 /* Pods-PrehabGUI.debug.xcconfig */,
+				7CDD6F73368FC55A57105C34 /* Pods-PrehabGUI.release.xcconfig */,
+				C2A424537F2000542F6EA402 /* Pods-PrehabGUITests.debug.xcconfig */,
+				D0C82850C2A0480E0051BB29 /* Pods-PrehabGUITests.release.xcconfig */,
+				156BCDB966AC7A222E5D65F6 /* Pods-PrehabGUIUITests.debug.xcconfig */,
+				13221B4C9D02648A6A6A8CD8 /* Pods-PrehabGUIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		66C9FE57F8A3122D8A72007E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8FC9EC61F6C6852003DC9A5 /* DoubleControlSDK.framework */,
+				B8FC9EC41F6C684A003DC9A5 /* ExternalAccessory.framework */,
+				AD32910496E5ED3D5E354B3D /* Pods_PrehabGUI.framework */,
+				4197492B72690CA55C189ED7 /* Pods_PrehabGUITests.framework */,
+				0393A1525B4A7617ED27D293 /* Pods_PrehabGUIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86FCF701F5F41F8000B5290 = {
+			isa = PBXGroup;
+			children = (
+				B89761E91F745E6B00E11895 /* HipsNot StandingActivity.mp4 */,
+				B89761EA1F745E6B00E11895 /* HipsNot StandingInstructional.mp4 */,
+				B89761EC1F745E6C00E11895 /* HipsStandingActivity.mp4 */,
+				B89761EB1F745E6B00E11895 /* HipsStandingInstructional.mp4 */,
+				B8E2DEAB1F6B2709005840DB /* BackNot StandingActivity.mp4 */,
+				B8E2DEA21F6B2706005840DB /* BackNot StandingInstructional.mp4 */,
+				B8E2DEA31F6B2707005840DB /* BackStandingActivity.mp4 */,
+				B8E2DEAA1F6B2708005840DB /* BackStandingInstructional.mp4 */,
+				B8E2DE991F6B2704005840DB /* HamstringsNot StandingActivity.mp4 */,
+				B8E2DE9E1F6B2705005840DB /* HamstringsNot StandingInstructional.mp4 */,
+				B8E2DEA01F6B2706005840DB /* HamstringsStandingActivity.mp4 */,
+				B8E2DE941F6B2703005840DB /* HamstringsStandingInstructional.mp4 */,
+				B8E2DEA11F6B2706005840DB /* NeckNot StandingActivity.mp4 */,
+				B8E2DE9C1F6B2705005840DB /* NeckNot StandingInstructional.mp4 */,
+				B8E2DE9F1F6B2706005840DB /* NeckStandingActivity.mp4 */,
+				B8E2DE971F6B2704005840DB /* NeckStandingInstructional.mp4 */,
+				B8E2DEB21F6B270B005840DB /* PecsNot StandingActivity.mp4 */,
+				B8E2DEA41F6B2707005840DB /* PecsNot StandingInstructional.mp4 */,
+				B8E2DE981F6B2704005840DB /* PecsStandingActivity.mp4 */,
+				B8E2DEB01F6B270A005840DB /* PecsStandingInstructional.mp4 */,
+				B862B74C1F69D3C900AF512C /* ToesNot Standing.mp4 */,
+				B8E2DEB31F6B270B005840DB /* ToesNot Standing.mp4 */,
+				B8E2DE9D1F6B2705005840DB /* ToesNot StandingActivity.mp4 */,
+				B8E2DEAC1F6B2709005840DB /* ToesNot StandingInstructional.mp4 */,
+				B85C4ED61F68BB22006EB37E /* ToesSitting.mp4 */,
+				B8E2DEA81F6B2708005840DB /* ToesSitting.mp4 */,
+				B8E2DEB51F6B270C005840DB /* ToesStandingActivity.mp4 */,
+				B8E2DEAE1F6B270A005840DB /* ToesStandingInstructional.mp4 */,
+				B8E2DEAD1F6B2709005840DB /* TrapsNot StandingActivity.mp4 */,
+				B8E2DEB11F6B270A005840DB /* TrapsNot StandingInstructional.mp4 */,
+				B8E2DE9A1F6B2704005840DB /* TrapsStandingActivity.mp4 */,
+				B8E2DEAF1F6B270A005840DB /* TrapsStandingInstructional.mp4 */,
+				B8E2DEB41F6B270B005840DB /* WristsNot StandingActivity.mp4 */,
+				B8E2DEA51F6B2707005840DB /* WristsNot StandingInstructional.mp4 */,
+				B8E2DEA91F6B2708005840DB /* WristsStandingActivity.mp4 */,
+				B8E2DE9B1F6B2705005840DB /* WristsStandingInstructional.mp4 */,
+				B8E098AA1F65B5C600C1E2BB /* ShuffleExtensions.swift */,
+				B8F8A7D21F71B26F00E0F380 /* IntroFaceViewController.swift */,
+				B86FCF7B1F5F41F8000B5290 /* PrehabGUI */,
+				B86FCF931F5F41F9000B5290 /* PrehabGUITests */,
+				B86FCF9E1F5F41F9000B5290 /* PrehabGUIUITests */,
+				B86FCF7A1F5F41F8000B5290 /* Products */,
+				0C423A49888A5DC4D5C01BBE /* Pods */,
+				66C9FE57F8A3122D8A72007E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B86FCF7A1F5F41F8000B5290 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B86FCF791F5F41F8000B5290 /* PrehabGUI.app */,
+				B86FCF901F5F41F9000B5290 /* PrehabGUITests.xctest */,
+				B86FCF9B1F5F41F9000B5290 /* PrehabGUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B86FCF7B1F5F41F8000B5290 /* PrehabGUI */ = {
+			isa = PBXGroup;
+			children = (
+				B8F8A7D41F71B47A00E0F380 /* IntroFaceViewController.swift */,
+				B810D7A01F61FDD9001C8873 /* GoogleService-Info.plist */,
+				B86FCFAD1F5F4299000B5290 /* SupportingFiles */,
+				B86FCF7E1F5F41F8000B5290 /* ViewController.swift */,
+				B86FCF801F5F41F8000B5290 /* Main.storyboard */,
+				B8DFCA091F7482AC0011381D /* AboutMe2ViewController.swift */,
+				B8DFCA071F746FF90011381D /* WakeUpViewController.swift */,
+				B8DFCA051F7466F70011381D /* AboutMeViewController.swift */,
+				B8A404781F72E7510054CD42 /* HeightViewController.swift */,
+				B8A404741F723A5E0054CD42 /* BreakFaceViewController.swift */,
+				B8A404761F7243BD0054CD42 /* BreakFaceViewControllerFirst.swift */,
+				B8ACFC111F6D9AC800936FFB /* ExitWithDriveOptionsViewController.swift */,
+				B8E2DED61F6B2BE5005840DB /* ExitViewController.swift */,
+				B8FC9ECB1F6C6B62003DC9A5 /* DoubleStuff.m */,
+				B8E2DED81F6B2BF1005840DB /* ConfirmDoneViewController.swift */,
+				B85C4EC21F689DCC006EB37E /* ActivityViewController.swift */,
+				B85C4EC01F688D7E006EB37E /* InstructionsViewController.swift */,
+				B8E098A81F639A7800C1E2BB /* ExpertAdviceViewController.swift */,
+				B8E098A61F63986300C1E2BB /* ExerciseVersionViewController.swift */,
+				B8E098A41F63975600C1E2BB /* MainActivityViewController.swift */,
+				B810D7A61F622085001C8873 /* UserViewController.swift */,
+				B86FCF831F5F41F8000B5290 /* PrehabGUI.xcdatamodeld */,
+				B8FC9ECA1F6C6B61003DC9A5 /* PrehabGUI-Bridging-Header.h */,
+			);
+			path = PrehabGUI;
+			sourceTree = "<group>";
+		};
+		B86FCF931F5F41F9000B5290 /* PrehabGUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B86FCF941F5F41F9000B5290 /* PrehabGUITests.swift */,
+				B86FCF961F5F41F9000B5290 /* Info.plist */,
+			);
+			path = PrehabGUITests;
+			sourceTree = "<group>";
+		};
+		B86FCF9E1F5F41F9000B5290 /* PrehabGUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B86FCF9F1F5F41F9000B5290 /* PrehabGUIUITests.swift */,
+				B86FCFA11F5F41F9000B5290 /* Info.plist */,
+			);
+			path = PrehabGUIUITests;
+			sourceTree = "<group>";
+		};
+		B86FCFAD1F5F4299000B5290 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B86FCF7C1F5F41F8000B5290 /* AppDelegate.swift */,
+				B86FCF861F5F41F8000B5290 /* Assets.xcassets */,
+				B86FCF881F5F41F8000B5290 /* LaunchScreen.storyboard */,
+				B86FCF8B1F5F41F8000B5290 /* Info.plist */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B86FCF781F5F41F8000B5290 /* PrehabGUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86FCFA41F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUI" */;
+			buildPhases = (
+				DC58D13F7E70F10343E181B3 /* [CP] Check Pods Manifest.lock */,
+				B86FCF751F5F41F8000B5290 /* Sources */,
+				B86FCF761F5F41F8000B5290 /* Frameworks */,
+				B86FCF771F5F41F8000B5290 /* Resources */,
+				DA0E957DE848857CF601F902 /* [CP] Embed Pods Frameworks */,
+				6584B52C6546BCA5B66E4BE5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrehabGUI;
+			productName = PrehabGUI;
+			productReference = B86FCF791F5F41F8000B5290 /* PrehabGUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B86FCF8F1F5F41F9000B5290 /* PrehabGUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86FCFA71F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUITests" */;
+			buildPhases = (
+				228684F8D42D12ED3400D0A1 /* [CP] Check Pods Manifest.lock */,
+				B86FCF8C1F5F41F9000B5290 /* Sources */,
+				B86FCF8D1F5F41F9000B5290 /* Frameworks */,
+				B86FCF8E1F5F41F9000B5290 /* Resources */,
+				33375A8F48E13AAD4F8F7D42 /* [CP] Embed Pods Frameworks */,
+				C1BDD79CB4AC3A183E890274 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86FCF921F5F41F9000B5290 /* PBXTargetDependency */,
+			);
+			name = PrehabGUITests;
+			productName = PrehabGUITests;
+			productReference = B86FCF901F5F41F9000B5290 /* PrehabGUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B86FCF9A1F5F41F9000B5290 /* PrehabGUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B86FCFAA1F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUIUITests" */;
+			buildPhases = (
+				BBEDFD14CCEB852EEC8F2F7F /* [CP] Check Pods Manifest.lock */,
+				B86FCF971F5F41F9000B5290 /* Sources */,
+				B86FCF981F5F41F9000B5290 /* Frameworks */,
+				B86FCF991F5F41F9000B5290 /* Resources */,
+				CF47EA4157B6170EBB8893D7 /* [CP] Embed Pods Frameworks */,
+				862B21E1B08F6A774F8972B2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B86FCF9D1F5F41F9000B5290 /* PBXTargetDependency */,
+			);
+			name = PrehabGUIUITests;
+			productName = PrehabGUIUITests;
+			productReference = B86FCF9B1F5F41F9000B5290 /* PrehabGUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B86FCF711F5F41F8000B5290 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Teofilo Zosa";
+				TargetAttributes = {
+					B86FCF781F5F41F8000B5290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = PT982E6PW5;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					B86FCF8F1F5F41F9000B5290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B86FCF781F5F41F8000B5290;
+					};
+					B86FCF9A1F5F41F9000B5290 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B86FCF781F5F41F8000B5290;
+					};
+				};
+			};
+			buildConfigurationList = B86FCF741F5F41F8000B5290 /* Build configuration list for PBXProject "PrehabGUI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B86FCF701F5F41F8000B5290;
+			productRefGroup = B86FCF7A1F5F41F8000B5290 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B86FCF781F5F41F8000B5290 /* PrehabGUI */,
+				B86FCF8F1F5F41F9000B5290 /* PrehabGUITests */,
+				B86FCF9A1F5F41F9000B5290 /* PrehabGUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B86FCF771F5F41F8000B5290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B89761ED1F745E6C00E11895 /* HipsNot StandingActivity.mp4 in Resources */,
+				B89761EE1F745E6C00E11895 /* HipsNot StandingInstructional.mp4 in Resources */,
+				B89761EF1F745E6C00E11895 /* HipsStandingInstructional.mp4 in Resources */,
+				B89761F01F745E6C00E11895 /* HipsStandingActivity.mp4 in Resources */,
+				B8ACFBED1F6D9A3A00936FFB /* BackNot StandingActivity.mp4 in Resources */,
+				B8ACFBEE1F6D9A3A00936FFB /* BackNot StandingInstructional.mp4 in Resources */,
+				B8ACFBEF1F6D9A3A00936FFB /* BackStandingActivity.mp4 in Resources */,
+				B8ACFBF01F6D9A3A00936FFB /* BackStandingInstructional.mp4 in Resources */,
+				B8ACFBF51F6D9A3A00936FFB /* HamstringsNot StandingActivity.mp4 in Resources */,
+				B8ACFBF61F6D9A3A00936FFB /* HamstringsNot StandingInstructional.mp4 in Resources */,
+				B8ACFBF71F6D9A3A00936FFB /* HamstringsStandingActivity.mp4 in Resources */,
+				B8ACFBF81F6D9A3A00936FFB /* HamstringsStandingInstructional.mp4 in Resources */,
+				B8ACFBF91F6D9A3A00936FFB /* NeckNot StandingActivity.mp4 in Resources */,
+				B8ACFBFA1F6D9A3A00936FFB /* NeckNot StandingInstructional.mp4 in Resources */,
+				B8ACFBFB1F6D9A3A00936FFB /* NeckStandingActivity.mp4 in Resources */,
+				B8ACFBFC1F6D9A3A00936FFB /* NeckStandingInstructional.mp4 in Resources */,
+				B8ACFBFD1F6D9A3A00936FFB /* PecsNot StandingActivity.mp4 in Resources */,
+				B8ACFBFE1F6D9A3A00936FFB /* PecsNot StandingInstructional.mp4 in Resources */,
+				B8ACFBFF1F6D9A3A00936FFB /* PecsStandingActivity.mp4 in Resources */,
+				B8ACFC001F6D9A3A00936FFB /* PecsStandingInstructional.mp4 in Resources */,
+				B8ACFC011F6D9A3A00936FFB /* ToesNot Standing.mp4 in Resources */,
+				B8ACFC021F6D9A3A00936FFB /* ToesNot Standing.mp4 in Resources */,
+				B8ACFC031F6D9A3A00936FFB /* ToesNot StandingActivity.mp4 in Resources */,
+				B8ACFC041F6D9A3A00936FFB /* ToesNot StandingInstructional.mp4 in Resources */,
+				B8ACFC051F6D9A3A00936FFB /* ToesSitting.mp4 in Resources */,
+				B8ACFC061F6D9A3A00936FFB /* ToesSitting.mp4 in Resources */,
+				B8ACFC071F6D9A3A00936FFB /* ToesStandingActivity.mp4 in Resources */,
+				B8ACFC081F6D9A3A00936FFB /* ToesStandingInstructional.mp4 in Resources */,
+				B8ACFC091F6D9A3A00936FFB /* TrapsNot StandingActivity.mp4 in Resources */,
+				B8ACFC0A1F6D9A3A00936FFB /* TrapsNot StandingInstructional.mp4 in Resources */,
+				B8ACFC0B1F6D9A3A00936FFB /* TrapsStandingActivity.mp4 in Resources */,
+				B8ACFC0C1F6D9A3A00936FFB /* TrapsStandingInstructional.mp4 in Resources */,
+				B8ACFC0D1F6D9A3A00936FFB /* WristsNot StandingActivity.mp4 in Resources */,
+				B8ACFC0E1F6D9A3A00936FFB /* WristsNot StandingInstructional.mp4 in Resources */,
+				B8ACFC0F1F6D9A3A00936FFB /* WristsStandingActivity.mp4 in Resources */,
+				B8ACFC101F6D9A3A00936FFB /* WristsStandingInstructional.mp4 in Resources */,
+				B86FCF8A1F5F41F8000B5290 /* LaunchScreen.storyboard in Resources */,
+				B810D7A31F61FDDE001C8873 /* GoogleService-Info.plist in Resources */,
+				B86FCF871F5F41F8000B5290 /* Assets.xcassets in Resources */,
+				B86FCF821F5F41F8000B5290 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF8E1F5F41F9000B5290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B810D7A51F61FDDF001C8873 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF991F5F41F9000B5290 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B810D7A41F61FDDF001C8873 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		228684F8D42D12ED3400D0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrehabGUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33375A8F48E13AAD4F8F7D42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUITests/Pods-PrehabGUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6584B52C6546BCA5B66E4BE5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUI/Pods-PrehabGUI-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		862B21E1B08F6A774F8972B2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUIUITests/Pods-PrehabGUIUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBEDFD14CCEB852EEC8F2F7F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrehabGUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1BDD79CB4AC3A183E890274 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUITests/Pods-PrehabGUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CF47EA4157B6170EBB8893D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUIUITests/Pods-PrehabGUIUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA0E957DE848857CF601F902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUI/Pods-PrehabGUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ObjcExceptionBridging/ObjcExceptionBridging.framework",
+				"${BUILT_PRODUCTS_DIR}/XCGLogger/XCGLogger.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjcExceptionBridging.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XCGLogger.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrehabGUI/Pods-PrehabGUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC58D13F7E70F10343E181B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrehabGUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B86FCF751F5F41F8000B5290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8E098A51F63975600C1E2BB /* MainActivityViewController.swift in Sources */,
+				B8E098A71F63986300C1E2BB /* ExerciseVersionViewController.swift in Sources */,
+				B8E2DED71F6B2BE5005840DB /* ExitViewController.swift in Sources */,
+				B86FCF851F5F41F8000B5290 /* PrehabGUI.xcdatamodeld in Sources */,
+				B85C4EC31F689DCC006EB37E /* ActivityViewController.swift in Sources */,
+				B8DFCA081F746FF90011381D /* WakeUpViewController.swift in Sources */,
+				B8E2DED91F6B2BF1005840DB /* ConfirmDoneViewController.swift in Sources */,
+				B8A404771F7243BD0054CD42 /* BreakFaceViewControllerFirst.swift in Sources */,
+				B85C4EC11F688D7E006EB37E /* InstructionsViewController.swift in Sources */,
+				B810D7A71F622085001C8873 /* UserViewController.swift in Sources */,
+				B8FC9ECC1F6C6B62003DC9A5 /* DoubleStuff.m in Sources */,
+				B8F8A7D31F71B26F00E0F380 /* IntroFaceViewController.swift in Sources */,
+				B8A404791F72E7510054CD42 /* HeightViewController.swift in Sources */,
+				B86FCF7F1F5F41F8000B5290 /* ViewController.swift in Sources */,
+				B86FCF7D1F5F41F8000B5290 /* AppDelegate.swift in Sources */,
+				B8A404751F723A5E0054CD42 /* BreakFaceViewController.swift in Sources */,
+				B8DFCA0A1F7482AC0011381D /* AboutMe2ViewController.swift in Sources */,
+				B8E098A91F639A7800C1E2BB /* ExpertAdviceViewController.swift in Sources */,
+				B8ACFC121F6D9AC800936FFB /* ExitWithDriveOptionsViewController.swift in Sources */,
+				B8E098AB1F65B5C600C1E2BB /* ShuffleExtensions.swift in Sources */,
+				B8DFCA061F7466F70011381D /* AboutMeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF8C1F5F41F9000B5290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86FCF951F5F41F9000B5290 /* PrehabGUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B86FCF971F5F41F9000B5290 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B86FCFA01F5F41F9000B5290 /* PrehabGUIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B86FCF921F5F41F9000B5290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FCF781F5F41F8000B5290 /* PrehabGUI */;
+			targetProxy = B86FCF911F5F41F9000B5290 /* PBXContainerItemProxy */;
+		};
+		B86FCF9D1F5F41F9000B5290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B86FCF781F5F41F8000B5290 /* PrehabGUI */;
+			targetProxy = B86FCF9C1F5F41F9000B5290 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B86FCF801F5F41F8000B5290 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86FCF811F5F41F8000B5290 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B86FCF881F5F41F8000B5290 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86FCF891F5F41F8000B5290 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B86FCFA21F5F41F9000B5290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B86FCFA31F5F41F9000B5290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B86FCFA51F5F41F9000B5290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCB1D26D09961D39253CEB67 /* Pods-PrehabGUI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT982E6PW5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PrehabGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrehabGUI/PrehabGUI-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B86FCFA61F5F41F9000B5290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CDD6F73368FC55A57105C34 /* Pods-PrehabGUI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT982E6PW5;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = PrehabGUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "PrehabGUI/PrehabGUI-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		B86FCFA81F5F41F9000B5290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2A424537F2000542F6EA402 /* Pods-PrehabGUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrehabGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrehabGUI.app/PrehabGUI";
+			};
+			name = Debug;
+		};
+		B86FCFA91F5F41F9000B5290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0C82850C2A0480E0051BB29 /* Pods-PrehabGUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrehabGUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrehabGUI.app/PrehabGUI";
+			};
+			name = Release;
+		};
+		B86FCFAB1F5F41F9000B5290 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156BCDB966AC7A222E5D65F6 /* Pods-PrehabGUIUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrehabGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PrehabGUI;
+			};
+			name = Debug;
+		};
+		B86FCFAC1F5F41F9000B5290 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13221B4C9D02648A6A6A8CD8 /* Pods-PrehabGUIUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PrehabGUIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ucsd.eng.tzosa.PrehabGUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PrehabGUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B86FCF741F5F41F8000B5290 /* Build configuration list for PBXProject "PrehabGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FCFA21F5F41F9000B5290 /* Debug */,
+				B86FCFA31F5F41F9000B5290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86FCFA41F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FCFA51F5F41F9000B5290 /* Debug */,
+				B86FCFA61F5F41F9000B5290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86FCFA71F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FCFA81F5F41F9000B5290 /* Debug */,
+				B86FCFA91F5F41F9000B5290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B86FCFAA1F5F41F9000B5290 /* Build configuration list for PBXNativeTarget "PrehabGUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B86FCFAB1F5F41F9000B5290 /* Debug */,
+				B86FCFAC1F5F41F9000B5290 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B86FCF831F5F41F8000B5290 /* PrehabGUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B86FCF841F5F41F8000B5290 /* PrehabGUI.xcdatamodel */,
+			);
+			currentVersion = B86FCF841F5F41F8000B5290 /* PrehabGUI.xcdatamodel */;
+			path = PrehabGUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B86FCF711F5F41F8000B5290 /* Project object */;
+}
